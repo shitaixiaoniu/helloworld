@@ -15,6 +15,7 @@ import edu.nk.imi.lfdg.constant.DBConstant;
 public class GatherDao {
 
 	public ArrayList<String> getAllUser() {
+    system.out.prinltn("hah");
 		ArrayList<String> userNameList = new ArrayList<String>();
 		try {
 			MongoClient mongoClient = new MongoClient(DBConstant.DBIP,
